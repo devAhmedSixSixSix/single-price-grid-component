@@ -1,0 +1,77 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: hsl(204, 43%, 93%);
+}
+
+body {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Karla", sans-serif;
+  background-color: hsl(204, 43%, 93%);
+}
+
+.container .full-section {
+  background-color: #fff;
+}
+
+h2,
+.full-section p {
+  color: hsl(179, 62%, 43%);
+}
+
+.container .full-section span {
+  color: hsl(71, 73%, 54%);
+  display: block;
+  padding: 22px 0 11px;
+}
+
+.container .boxs {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+
+.container .full-section,
+.container .boxs .box:first-of-type,
+.container .boxs .box:last-of-type {
+  padding: 33px;
+}
+
+.container .boxs .box:first-of-type {
+  background-color: hsl(179, 62%, 43%);
+}
+
+.container .boxs .box:first-of-type p:first-of-type {
+  padding: 0 11px 5px 0px;
+}
+
+.container .boxs .box:first-of-type p:first-of-type span {
+  font-weight: 700;
+  font-size: 32px;
+}
+
+button {
+  background-color: hsl(71, 73%, 54%);
+  outline: none;
+  border: none;
+  padding: 11px 33px;
+  width: 80%;
+  margin: 22px auto;
+  display: block;
+  border-radius: 7px;
+}
+
+/*  */
+
+.container .boxs .box:last-of-type {
+  background-color: hsl(179, 59%, 54%);
+}
+
+h3,
+.box span {
+  color: #fff;
+  padding: 0px 0 22px;
+}
